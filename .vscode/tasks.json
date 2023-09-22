@@ -5,6 +5,7 @@
             "label": "C/C++: gcc.exe build active file",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
+                "-I./lib",
                 "-std=c++17",
                 "-fdiagnostics-color=always",
                 "-g",
@@ -29,6 +30,7 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
+                "-I../lib",
                 "-std=c++17",
                 "-fdiagnostics-color=always",
                 "-g",
