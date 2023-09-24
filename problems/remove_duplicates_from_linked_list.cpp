@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
