@@ -6,6 +6,7 @@ using namespace std;
 class Solution {
 public:
     bool isPalindrome(int x) {
+        if (x < 0) return false;
         vector<int> digits = get_digits(x);
         int start = 0, end = digits.size() - 1;
 
