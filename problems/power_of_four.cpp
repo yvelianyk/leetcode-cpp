@@ -18,4 +18,6 @@ int main() {
     cout << "Is " << param << " power of four?" << std::endl;
     cout << s.isPowerOfFour(16) << std::endl;
     cout << "should be true" << std::endl;
+    cin.get();
+    return 0;
 }
