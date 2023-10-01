@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
