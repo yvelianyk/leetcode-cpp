@@ -18,4 +18,6 @@ public:
 
 int main () {
     Solution s;
+    vector<int> arr = {1,2,3};
+    s.buildArray(arr);
 }
