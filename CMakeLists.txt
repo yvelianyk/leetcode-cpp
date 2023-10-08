@@ -4,7 +4,7 @@ project(leetcode-cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        src/problems/diff_of_sums.cpp
+        src/problems/min_processing_time.cpp
 )
 add_executable(Build ${SOURCES})
 target_include_directories(Build PRIVATE ${CMAKE_SOURCE_DIR}/lib)
