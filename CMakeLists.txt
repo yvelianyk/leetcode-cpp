@@ -4,7 +4,7 @@ project(leetcode-cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        src/problems/insert_gcd_in_linked_list.cpp
+        src/problems/min_bit_flips.cpp
 )
 add_executable(Build ${SOURCES})
 target_include_directories(Build PRIVATE ${CMAKE_SOURCE_DIR}/lib)
