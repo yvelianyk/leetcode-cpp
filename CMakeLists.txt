@@ -4,7 +4,7 @@ project(leetcode-cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        src/problems/min_bit_flips.cpp
+        src/problems/bin_num_alter_bits.cpp
 )
 add_executable(Build ${SOURCES})
 target_include_directories(Build PRIVATE ${CMAKE_SOURCE_DIR}/lib)
