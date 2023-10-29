@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// https://leetcode.com/problems/find-the-k-or-of-an-array/
 class Solution {
 public:
     int findKOr(vector<int> &nums, int k) {
