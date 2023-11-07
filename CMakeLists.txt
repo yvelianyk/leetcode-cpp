@@ -4,7 +4,7 @@ project(leetcode-cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        src/problems/average_of_subtree.cpp
+        src/problems/last_mom_ants.cpp
 )
 add_executable(Build ${SOURCES})
 target_include_directories(Build PRIVATE ${CMAKE_SOURCE_DIR}/lib)
