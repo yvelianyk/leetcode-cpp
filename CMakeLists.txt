@@ -4,7 +4,7 @@ project(leetcode-cpp)
 set(CMAKE_CXX_STANDARD 17)
 
 set(SOURCES
-        src/problems/min_el_after_replacement.cpp
+        src/problems/k_th_char.cpp
 )
 add_executable(Build ${SOURCES})
 target_include_directories(Build PRIVATE ${CMAKE_SOURCE_DIR}/lib)
